@@ -1,1 +1,19 @@
-https://script.google.com/a/macros/sesao15.go.th/s/AKfycbwg-7WfN_sJTFtUWPHVo0XV4OXROXd6BzMp2X7kiy00rQbWwbAOOku39tH15YgMchcW/exec
+function doGet(e) {
+  return HtmlService.createTemplateFromFile('xxx').evaluate()
+      .setTitle("web app")
+      .addMetaTag('viewport','width=device-width , initial-scale=1')
+      .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL)
+}
+
+----------------------------------------------------------------
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="UTF-8"
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>web app</title>
+</head>
+<body>
+    <iframe style="height: 100vh;" src="https://script.google.com/a/macros/sesao15.go.th/s/AKfycbwg-7WfN_sJTFtUWPHVo0XV4OXROXd6BzMp2X7kiy00rQbWwbAOOku39tH15YgMchcW/exec" frameborder="0" width="100%" height="100%"></iframe>
+</body>
+</html>
